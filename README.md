@@ -14,7 +14,9 @@ GitHub Pages doit être disponible pour la visibilité du dépôt et le forfait 
 
 L'adresse GitHub Pages du projet sera affichée dans Settings → Pages après déploiement. Ne pas considérer le site comme publié avant cette confirmation.
 
-Pour un domaine personnalisé, configurer le domaine et les DNS uniquement après vérification du nom exact et du compte qui le gère. Aucun CNAME n'est imposé dans ce projet.
+Domaine officiel : https://tangerantaeus.com/ ; contact : contact@tangerantaeus.com.
+
+Le fichier `CNAME` contient `tangerantaeus.com`. L’activation de GitHub Pages, la configuration DNS et le certificat HTTPS doivent être vérifiés dans Settings → Pages et auprès du gestionnaire du domaine. La présence de CNAME seule ne prouve pas que le site est en ligne.
 
 ## Modifier
 
