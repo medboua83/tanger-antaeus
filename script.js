@@ -22,6 +22,6 @@ document.getElementById('contact-form').addEventListener('submit', event => {
  if (!name || !message) return;
  const subject = document.getElementById('subject').value + ' — Tanger Antaeus';
  const body = (language === 'ar' ? 'الاسم: ' : 'Nom : ') + name + '\n\n' + message;
- window.location.href = 'mailto:contact@t-antaeus.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
- document.getElementById('form-status').textContent = language === 'ar' ? 'إذا لم يُفتح تطبيق البريد، راسلونا مباشرة على contact@t-antaeus.com.' : 'Si votre messagerie ne s’ouvre pas, écrivez-nous directement à contact@t-antaeus.com.';
+ window.location.href = 'mailto:contact@tangerantaeus.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+ document.getElementById('form-status').textContent = language === 'ar' ? 'إذا لم يُفتح تطبيق البريد، راسلونا مباشرة على contact@tangerantaeus.com.' : 'Si votre messagerie ne s’ouvre pas, écrivez-nous directement à contact@tangerantaeus.com.';
 });
